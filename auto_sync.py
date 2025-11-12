@@ -139,9 +139,10 @@ class GitHubAutoSync:
             try:
                 self.logger.info(f"Pushing to GitHub (attempt {attempt + 1}/{max_retries})...")
                 
-                # Push with timeout handling
+                # Push with timeout handling (macOS compatible)
+                push_cmd = f"cd {self.repo_path} && git push origin main"
                 result = subprocess.run(
-                    f"cd {self.repo_path} && timeout 30 git push origin main",
+                    push_cmd,
                     shell=True,
                     capture_output=True,
                     text=True,
