@@ -1,0 +1,18 @@
+# Core dependencies for Condition Task List Trader
+numpy>=1.21.0
+pandas>=1.3.0
+curses  # For dashboard display (built-in on most systems)
+
+# Optional dependencies for real market data integration
+websocket-client>=1.0.0
+requests>=2.25.0
+
+# Optional dependencies for broker API integration
+# Uncomment your preferred broker's SDK:
+alpaca-trade-api>=2.0.0
+python-binance>=1.0.0
+# td-ameritrade-api>=1.0.0
+
+# Development dependencies
+pytest>=6.0.0
+pytest-asyncio>=0.18.0
