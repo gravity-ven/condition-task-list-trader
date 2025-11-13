@@ -278,3 +278,14 @@ auto_sync.log            | 11 +++++++++++
 2025-11-13 11:15:21,613 [ERROR] Non-recoverable error: fatal: could not read Username for 'https://github.com': Device not configured
 2025-11-13 11:15:21,614 [ERROR] ❌ Auto-sync failed during push
 2025-11-13 11:25:21,622 [INFO] 🔄 Starting auto-sync to GitHub...
+2025-11-13 11:25:21,711 [INFO] Changes staged successfully
+2025-11-13 11:25:21,794 [INFO] Changes committed: Auto-sync [general] - 2025-11-13_11-25
+
+auto_sync.log            | 11 +++++++++++
+ auto_sync_background.log | 11 +++++++++++
+ 2 files changed, 22 insertions(+)
+2025-11-13 11:25:21,794 [INFO] Pushing to GitHub (attempt 1/3)...
+2025-11-13 11:25:22,200 [WARNING] Push attempt 1 failed: fatal: could not read Username for 'https://github.com': Device not configured
+2025-11-13 11:25:22,200 [ERROR] Non-recoverable error: fatal: could not read Username for 'https://github.com': Device not configured
+2025-11-13 11:25:22,200 [ERROR] ❌ Auto-sync failed during push
+2025-11-13 11:35:22,256 [INFO] 🔄 Starting auto-sync to GitHub...
